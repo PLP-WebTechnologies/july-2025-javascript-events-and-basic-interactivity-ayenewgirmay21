@@ -1,0 +1,50 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Light/Dark mode */
+.dark-mode {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+/* FAQ styling */
+.faq-content {
+  display: none;
+  margin: 5px 0 15px 0;
+  padding: 10px;
+  background-color: #e2e2e2;
+}
+
+.faq-btn.active + .faq-content {
+  display: block;
+}
+
+/* Form styling */
+input {
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  display: block;
+}
+
+#successMessage {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
